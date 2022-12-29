@@ -1,0 +1,90 @@
+*{ margin: 0;
+    padding: 0;
+   box-sizing: border-box;}
+ 
+ .contenedor-1{
+     width: 100%;
+     height: 40px;
+     background-color: rgb(228, 226, 229);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+     .free{
+        font-size: 15px;
+        color: lightslategrey;
+ }
+ 
+ .h-3{padding:0   0   0  20px;}
+ 
+ .lupa{
+     padding: 0   20px  0  0;
+ }
+ 
+ .contenedor-2{
+     width: 100%;
+     height:100px ;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   
+ }
+ 
+ .pipeline{
+     padding: 15px;
+     border: 2px solid black;
+     margin: 0 0 0 10px;
+ }
+ 
+ 
+ 
+ ul{
+    display: flex;
+ }
+ 
+ .lista{
+     list-style: none;
+ }
+ 
+ li{
+     padding: 2px 35px;}
+ 
+ .contenedor-3{ 
+     width: 100%;
+     height: 86vh;
+     background-color: rgb(200, 232, 237);
+     display: flex;
+     justify-content: center;
+     position: relative;
+ 
+ 
+ }
+   
+ .titular, .tema, .secundario{
+     font-family: 'Jost', sans-serif;
+     font-weight: 100;
+     position: absolute; 
+     padding: 5px;
+     top: 40%;
+     color: white;
+ }
+ 
+ .titular{
+     font-size: 45px;
+     font-weight: 100;
+ }
+ 
+ .tema{
+     font-size:45px ;
+     font-weight: 100;
+     top: 47% ;
+ }
+ 
+ .secundario{
+     font-size: 20px;
+     font-weight: 120;
+     top: 57%;
+ }
+ span{
+     color: black;
+ }
